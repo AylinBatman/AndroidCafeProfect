@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AylinProject</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="internet_yok_hatasi_icerik">Lütfen internet bağlantınızı kontrol edip tekrar deneyiniz !</string>
+    <string name="internet_yok_hatasi_baslik">Bağlantı Hatası</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

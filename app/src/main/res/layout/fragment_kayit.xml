@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:padding="10dp"
+                android:src="@drawable/logoshop" />
+
+            <TextView
+                android:id="@+id/spanslogan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="monospace"
+                android:gravity="center|top"
+                android:text="Alışverişe Başlamak İçin\nÜcretsiz Kayıt Olun"
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittextback2"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:src="@drawable/adsoyad_kayit" />
+
+                <EditText
+                    android:id="@+id/adsecim"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#eeffffff"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:hint="Adınız"
+                    android:inputType="text"
+                    android:textColor="#aaffffff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittextback2"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:src="@drawable/adsoyad_kayit" />
+
+                <EditText
+                    android:id="@+id/soyadsecim"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#eeffffff"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:hint="Soyadınız"
+                    android:inputType="text"
+                    android:textColor="#aaffffff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/edittextback2"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:src="@drawable/email_kayit" />
+
+                <EditText
+                    android:id="@+id/emailsecim"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#eeffffff"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:hint="E-posta Adresi"
+                    android:inputType="textEmailAddress"
+                    android:textColor="#aaffffff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/edittextback2"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:src="@drawable/sifre_kayit" />
+
+                <EditText
+                    android:id="@+id/sifresecim"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#eeffffff"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:hint="Kullanıcı Şifresi"
+                    android:inputType="textPassword"
+                    android:textColor="#aaffffff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/edittextback2"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:src="@drawable/telefon_kayit" />
+
+                <EditText
+                    android:id="@+id/telefonsecim"
+                    android:layout_width="match_parent"
+                    android:maxLength="14"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#eeffffff"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:hint="Telefon Numaranız"
+                    android:inputType="phone"
+                    android:textColor="#aaffffff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/kaydetsecim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#3276b1"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Kullanmaya Başla"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
